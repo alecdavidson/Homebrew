@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew Spells</name>
+		<update version="0.0.0">
+			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/homebrewspells.xml" />
+		</update>
+	</info>
+
+	<element name="Corbin's Chromatographic Seperation" type="Spell" source="Homebrew" id="ID_HB_SPELL_CORBINS_CHROMATOGRAPHIC_SEPERATION">
+		<supports>Wizard, Spell Saving Throw</supports>
+		<description>
+			<p>Strands of the weave wrap around the target, ripping the target apart into the base elements that composed it. The target can be a creature or an object.</p>
+			<p>A creature targeted by this spell must make a Constitution saving throw. Creatures painted into existance make this save with disadvantage. On a failed save, the target takes 7d6 force damage. The target is disintegrated if this damage leaves it with 0 hit points and it cannot regenerate or reform.</p>
+			<p>A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to the elements that composed the creature. A non-painted creature can be restored to life only by means of a true resurrection or a wish spell.</p>
+			<p>This spell automatically reduces a Large or smaller nonmagical object into the raw elements thay formed the object. If the target is a Huge or larger object, this spell separates a 10-foot-cube portion of it. A magic item is unaffected by this spell.</p>
+			<p class="indent">At Higher Levels. When you cast this spell using a spell slot of 6th level or higher, the damage increases by 3d6 for each slot level above 5th.</p>
+		</description>
+		<setters>
+			<set name="keywords">homebrew</set>
+			<set name="level">5</set>
+			<set name="school">Transmutation</set>
+			<set name="time">1 action</set>
+			<set name="duration">Instantaneous</set>
+			<set name="range">60 feet</set>
+			<set name="hasVerbalComponent">true</set>
+			<set name="hasSomaticComponent">true</set>
+			<set name="hasMaterialComponent">true</set>
+			<set name="materialComponent">A small vial of Alcohol</set>
+			<set name="isConcentration">false</set>
+			<set name="isRitual">false</set>
+		</setters>
+	</element>
+</elements>

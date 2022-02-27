@@ -86,17 +86,17 @@
 		<description>
 			<p>In your raven or hybrid form you gain one natural weapons which you are considered proficienct with:</p>
 			<ul>
-			<li>Beak: Melee Weapon Attack, 1d4 + Strength piercing damage.</li>
+			<li>Beak: Melee Weapon Attack, 1d4 + Dexterity piercing damage.</li>
 			</ul>
 		</description>
 		<sheet usage="Bear or Hybrid Form">
 			<description>
-			You gain the following natural weapons:
+			<p>You gain the following natural weapon:</p>
 			&#x2022; Beak: Melee Weapon Attack, 1d4 + {{wereraven weapon:modifier}} piercing damage.
 			</description>
 		</sheet>
 		<rules>
-			<stat name="wereraven weapon:modifier" value="strength:modifier" bonus="wereraven strength" />
+			<stat name="wereraven weapon:modifier" value="dexterity:modifier" bonus="wereraven strength" />
 		</rules>
 	</element>
 
