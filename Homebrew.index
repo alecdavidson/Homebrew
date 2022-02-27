@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Homebrew</name>
+		<description>It's my Homebrew stuff.</description>
+		<author>Alec Davidson and Thatcher Caldwell</author>
+		<update version="0">
+			<file name="core.index" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/core.index" />
+		</update>
+	</info>
+	<files>
+		<file name="wereraven.index" url="file:///D:/Documents/5e%20Character%20Builder/custom/user/Homebrew/wereraven.index" />
+	</files>
+</index>
