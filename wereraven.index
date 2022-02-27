@@ -6,6 +6,6 @@
 		<author>Thatcher Caldwell</author>
 	</info>
 	<files>
-		<file name="wereraven.xml" url="file:///D:/Documents/5e%20Character%20Builder/custom/user/Homebrew/wereraven.xml" />
+		<file name="wereraven.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.xml" />
 	</files>
 </index>
