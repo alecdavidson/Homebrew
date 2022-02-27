@@ -3,7 +3,10 @@
 	<info>
 		<name>Were-Raven</name>
 		<description>Additional Features from Were-Raven Lycanthropy</description>
-		<author>Thatcher Caldwell</author>
+		<update version="0.0.0">
+			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.index" />
+		</update>
+
 	</info>
 	<files>
 		<file name="wereraven.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.xml" />

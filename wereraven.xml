@@ -3,7 +3,9 @@
     <info>
         <name>Wereraven Lycanthropy</name>
         <description>Wereraven Lycanthropy</description>
-        <author>Thatcher Caldwell</author>
+		<update version="0.0.0">
+			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.index" />
+		</update>
     </info>
 
 	<element name="Wereraven Lycanthropy" type="Item" source="Homebrew" id="ID_HB_WERERAVEN_LYCANTHROPY">

@@ -9,6 +9,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.index" />
+		<file name="wereraven.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.xml" />
 	</files>
 </index>
