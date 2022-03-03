@@ -3,7 +3,7 @@
     <info>
         <name>Wereraven Lycanthropy</name>
         <description>Wereraven Lycanthropy</description>
-		<update version="0.0.0">
+		<update version="0.0.1">
 			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.index" />
 		</update>
     </info>
@@ -29,33 +29,82 @@
 		<description>
 			<p>Wereraven Lycanthropy</p>
 			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_SHAPESHIFTER" />
-			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_FLIGHT_SPEED" />
+			<p>You may transform into a full wereraven once per day for one hour. While in your full wereraven form, you gain all the traits of a standard Kenku. In addition to those racial traits, you gain the following benefits:</p>
 			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_RESISTANCE" />
-			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_PASSIVE_PERCEPTION" />
-			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_WEAPONS" />
+			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_TALONS" />
+			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVEN_WINGS" />
+			<p>You may gain the traits of a wereraven without fully transforming a number of times equal to your proficiency modifier, for 10 minutes, choosing one of the following benefits:</p>
+			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_TALONS" />
+			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVEN_WINGS" />
+			<div element="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVENS_VOICE" />
 		</description>
 		<sheet display ="false">
 			<description />
 		</sheet>
 		<rules>
 			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_SHAPESHIFTER" />
-			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_FLIGHT_SPEED" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_KENKU_EXPERT_FORGERY" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_KENKU_MIMICRY" />
 			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RESISTANCE" />
-			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_PASSIVE_PERCEPTION" />
-			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_WEAPONS" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVEN_WINGS" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_TALONS" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVENS_VOICE" />
 		</rules>
+	</element>
+
+	<element name="Expert Forgery" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_HB_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
+		<description>
+			<p>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
+		</description>
+		<sheet usage="Raven Form">
+			<description>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</description>
+		</sheet>
+	</element>
+	
+	<element name="Mimicry" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_HB_RACIAL_TRAIT_KENKU_MIMICRY">
+		<description>
+			<p>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
+		</description>
+		<sheet usage="Raven Form">
+			<description>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Insight check opposed by your Deception check.</description>
+		</sheet>
 	</element>
 
 	<element name="Shapeshifter" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_SHAPESHIFTER">
 		<description>
-			<p>Unknown</p>
+			<p>As an action, you may transform into a full wereraven once per day for one hour. While in your full wereraven form, you gain all the traits of a standard Kenku. As a bonus action, you may gain the traits of a wereraven without fully transforming a number of times equal to your proficiency modifier, for 10 minutes, choosing one of its benefits</p>
 		</description>
-		<sheet action="Action">
-			<description>Unknown</description>
+		<sheet action="Action or Bonus Action">
+			<description>
+				<p>As an action, you transform into a full wereraven for one hour. While in your full wereraven form, you gain all the traits of a standard Kenku in addition to the Raven Abilities. You can do this once per day. As a bonus action, you gain one of the traits of a wereraven without fully transforming for 10 minutes. You can do this a number of times equal to your proficiency modifier</p>
+			</description>
 		</sheet>
 	</element>
 
-	<element name="Wereraven Speed" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_FLIGHT_SPEED">
+	<element name="Wereraven Resistances" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RESISTANCE">
+		<description>
+			<p>You are Resistance to Non-Magic/Non-Silvered attacks.</p>
+		</description>
+		<sheet usage="Raven Form">
+			<description>You are Resistance to Non-Magic/Non-Silvered attacks.</description>
+		</sheet>
+	</element>
+
+	<element name="Raven's Talons" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_TALONS">
+		<description>
+			<p>Your hands turn into talons and you may make an unarmed strike using 2d4 + Strength Slashing Damage</p>
+		</description>
+		<sheet usage="Raven or Hybrid Form">
+			<description>
+			<p>Talon: Unarmed Strike Attack, 2d4 + {{wereraven weapon:modifier}} slashing damage.</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="wereraven weapon:modifier" value="strength:modifier" bonus="wereraven strength" />
+		</rules>
+	</element>
+
+	<element name="Wereraven Wings" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVEN_WINGS">
 		<description>
 			<p>You have a flight speed of 50 ft in raven or hybrid form.</p>
 		</description>
@@ -64,40 +113,14 @@
 		</sheet>
 	</element>
 
-	<element name="Wereraven Immunities" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RESISTANCE">
+	<element name="Raven's Voice" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_RAVENS_VOICE">
 		<description>
-			<p>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons.</p>
+			<p>You gain a beak and may mimic any sound you have heard.</p>
 		</description>
-		<sheet usage="Raven or Hybrid Form">
-			<description>You are immune to bludgeoning, piercing, and slashing damage from non magical weapons.</description>
-		</sheet>
-	</element>
-
-	<element name="Passive Perception" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_PASSIVE_PERCEPTION">
-		<description>
-			<p>You have a Passive Perception of 15.</p>
-		</description>
-		<sheet>
-			<description>You have a Passive Perception of 15.</description>
-		</sheet>
-	</element>
-
-	<element name="Natural Weapons" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_WEAPONS">
-		<description>
-			<p>In your raven or hybrid form you gain one natural weapons which you are considered proficienct with:</p>
-			<ul>
-			<li>Beak: Melee Weapon Attack, 1d4 + Dexterity piercing damage.</li>
-			</ul>
-		</description>
-		<sheet usage="Bear or Hybrid Form">
+		<sheet usage="Hybrid Form">
 			<description>
-			<p>You gain the following natural weapon:</p>
-			&#x2022; Beak: Melee Weapon Attack, 1d4 + {{wereraven weapon:modifier}} piercing damage.
+			<p>You gain a beak and may mimic any sound you have heard.</p>
 			</description>
 		</sheet>
-		<rules>
-			<stat name="wereraven weapon:modifier" value="dexterity:modifier" bonus="wereraven strength" />
-		</rules>
 	</element>
-
 </elements>	
