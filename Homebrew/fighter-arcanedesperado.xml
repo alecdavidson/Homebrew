@@ -3,7 +3,7 @@
 	<info>
 		<name>Arcane Desperado</name>
 		<update version="0.0.0">
-			<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/fighter-arcanedesperado.xml" />
+			<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/fighter-arcanedesperado.xml" />
 		</update>
 	</info>
 	<element name="Arcane Desperado" type="Archetype" source="Homebrew" id="ID_HB_ARCHETYPE_FIGHTER_ARCANE_DESPERADO">

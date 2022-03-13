@@ -4,7 +4,7 @@
         <name>Wereraven Lycanthropy</name>
         <description>Wereraven Lycanthropy</description>
 		<update version="0.0.1">
-			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/wereraven.index" />
+			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/wereraven.index" />
 		</update>
     </info>
 
