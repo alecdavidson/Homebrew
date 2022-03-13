@@ -3,7 +3,7 @@
 	<info>
 		<name>Homebrew Spells</name>
 		<update version="0.0.1">
-			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/homebrewspells.xml" />
+			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		</update>
 	</info>
 
