@@ -10,11 +10,7 @@
 	</info>
 	<files>
 		<file name="wereraven.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wereraven.xml" />
-	</files>
-	<files>
 		<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
-	</files>
-	<files>
 		<file name="arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 	</files>
 </index>
