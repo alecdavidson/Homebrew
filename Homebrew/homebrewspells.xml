@@ -7,7 +7,7 @@
 		</update>
 	</info>
 
-	<element name="Corbin's Chromatographic Seperation" type="Spell" source="Homebrew" id="ID_HB_SPELL_CORBINS_CHROMATOGRAPHIC_SEPERATION">
+	<element name="Corbin's Chromatographic Separation" type="Spell" source="Homebrew" id="ID_HB_SPELL_CORBINS_CHROMATOGRAPHIC_SEPERATION">
 		<supports>Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Strands of the weave wrap around the target, ripping the target apart into the base elements that composed it. The target can be a creature or an object.</p>
