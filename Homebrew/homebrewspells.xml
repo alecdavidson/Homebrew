@@ -2,12 +2,12 @@
 <elements>
 	<info>
 		<name>Homebrew Spells</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		</update>
 	</info>
 
-	<element name="Corbin's Chromatographic Separation" type="Spell" source="Homebrew" id="ID_HB_SPELL_CORBINS_CHROMATOGRAPHIC_SEPERATION">
+	<element name="Corbin's Chromatographic Separation" type="Spell" source="Homebrew" id="ID_HB_SPELL_CORBINS_CHROMATOGRAPHIC_SEPARATION">
 		<supports>Wizard, Spell Saving Throw</supports>
 		<description>
 			<p>Strands of the weave wrap around the target, ripping the target apart into the base elements that composed it. The target can be a creature or an object.</p>
