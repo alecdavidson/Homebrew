@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
 		</update>
 	</info>
@@ -30,7 +30,7 @@
 				<ul>
 					<li>Difficult terrain doesn’t slow your group’s travel.</li>
 				<li>Your group can’t become lost except by magical means.</li>
-				<li>You have advantage on Wisdom (Survival) checks"</li>
+				<li>You have advantage on Wisdom (Survival) checks</li>
 				</ul></td></tr>
 				<tr><td>8</td><td>Justice</td><td>Activate Justice as a Reaction, which you take when a creature within 30ft of you, that you can see, rolls with either advantage or disadvantage. You negate the second roll.</td></tr>
 				<tr><td>9</td><td>The Hermit</td><td>Activate The Hermit as a Bonus Aciton. You have advantage on all Wisdom ability checks and saving throws for the next hour.</td></tr>

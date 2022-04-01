@@ -6,3 +6,4 @@ Change Log
 0.0.4 - Fixed Typos
 0.0.5 - Added Cartomancer Subclass
 0.0.6 - Fixed Formatting
+0.0.7 - Fixed Typos
