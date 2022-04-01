@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
 		</update>
 	</info>
@@ -62,7 +62,8 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_FOOL</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>Your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person. Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</p>
+			<p>Starting at 2nd level, your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person.</p>
+			<p class="Indent">Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</description>
@@ -72,7 +73,8 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CARTOMANCY</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>Your deck gives you insight into the world and the future. Once per day, you can cast any known Divination Spell, without consuming a spell slot, even if the spell is not prepared.</p>
+			<p>Also at 2nd level, your deck gives you insight into the world and the future.</p>
+			<p class="Indent">Once per day, you can cast any known Divination Spell, without consuming a spell slot, even if the spell is not prepared.</p>
 		</description>
 		<sheet usage="1/Long Rest">
 			<description>Once per day, you can cast any known Divination Spell, without consuming a spell slot, even if the spell is not prepared.</description>
@@ -82,17 +84,19 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SHADOW_WORK</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>During your travels, you began recording your more interesting reads. Instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1)</p>
+			<p>During your travels, you began recording your more interesting reads.</p>
+			<p class="Indent">Starting at 6th level, instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1).</p>
 		</description>
 		<sheet>
-			<description>Instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1)</description>
+			<description>Instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1).</description>
 		</sheet>
 	</element>
 	<element name="Intuitive Reading" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_INTUITIVE_READING">
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_INTUITIVE_READING</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>As your experiences grow, your trust in your deck grows with it. When you are targeted by a spell or attack, you can use your reaction to draw a random Tarot Ability from your deck. The Tarot Ability is activated as part of your reaction. You can use this feature once per long rest.</p>
+			<p>As your experiences grow, your trust in your deck grows with it.</p>
+			<p class="Indent">At 10th level, when you are targeted by a spell or attack, you can use your reaction to draw a random Tarot Ability from your deck. The Tarot Ability is activated as part of your reaction. You can use this feature once per long rest.</p>
 		</description>
 		<sheet>
 			<description action="Reaction">When you are targeted by a spell or attack, you can use your reaction to draw a random Tarot Ability from your deck. The Tarot Ability is activated as part of your reaction. You can use this feature once per long rest.</description>
@@ -102,7 +106,8 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_WORLD</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>Your Tarot Cards, and the meanings they represent, have brought you closer to the world. Whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</p>
+			<p>Your Tarot Cards, and the meanings they represent, have brought you closer to the world.</p>
+			<p class="indent">At 14th level, whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</p>
 		</description>
 		<sheet>
 			<description action="Reaction" usage="1/Short or Long Rest">Whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</description>
