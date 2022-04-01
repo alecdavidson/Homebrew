@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <index>
 	<info>
 		<name>Homebrew</name>
 		<description>It's my Homebrew stuff.</description>
 		<author>Alec Davidson and Thatcher Caldwell</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="Homebrew.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew.index" />
 		</update>
 	</info>
 	<files>
 		<file name="wereraven.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wereraven.xml" />
 		<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
-		<file name="arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
+		<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
+		<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
 	</files>
 </index>

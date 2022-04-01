@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
+		</update>
+	</info>
+
+	<element name="Cartomancer" type="Archetype" source="Homebrew" id="ID_HB_ARCHETYPE_WIZARD_CARTOMANCER">
+		<supports>Arcane Tradition</supports>
+		<description>
+			<p>Your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person. Your deck allow you to preform feats not common to most Wizards and gives you insight into the world and the future.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_FOOL" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CARTOMANCY" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SHADOW_WORK" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_INTUITIVE_READING" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_WORLD" />
+			<h5 class="caption">Tarot Ability Table</h5>
+			<table>
+				<thead>
+					<tr><td>d20</td><td>Card</td><td>Effect</td></tr>
+				</thead>
+				<tr><td>1</td><td>The Magician</td><td>Activate The Magician as a Bonus Aciton. You have advantage on all Intelligence ability checks and saving throws for the next hour.</td></tr>
+				<tr><td>2</td><td>The High Priestess</td><td>Activate The High Priestess as an Action. For the next hour, whenever you make an attack roll, an ability check, or a saving throw, you can roll an additional d20. You choose which of the d20s is used for the attack roll, ability check, or saving throw. You can decide to do this after you roll the first d20, but before you know the outcome of the roll. Once you use this ability, you cannot use it again until you draw another The High Priestess.</td></tr>
+				<tr><td>3</td><td>The Empress</td><td>Activate The Empress as an Action. You cast the cantrip Guidance. Your Tarot Cards hold the concentration for you.</td></tr>
+				<tr><td>4</td><td>The Emperor</td><td>Activate The Emperor as an Action. You cast the cantrip Freinds. Your Tarot cards maintain the concentration for you.</td></tr>
+				<tr><td>5</td><td>The Hierophant</td><td>Activate The Hierophant as an Action. You gain proficiency in a tool or skill of your choice for 1 hour.</td></tr>
+				<tr><td>6</td><td>The Lovers</td><td>Activate The Lovers as a Bonus Action. The next time you cast a spell whose level is equal to or less than your proficiency bonus, that Targets only one creature, and doesn’t have a range of self, you can target a second creature in range with the same spell.</td></tr>
+				<tr><td>7</td><td><p>The Chariot</td><td>"Activate The Chariot as an Action. You gain the following benefits for the next hour:</p>
+				<p class="indent">Difficult terrain doesn’t slow your group’s travel.</p>
+				<p class="indent">Your group can’t become lost except by magical means.</p>
+				<p class="indent">You have advantage on Wisdom (Survival) checks"</p></td></tr>
+				<tr><td>8</td><td>Justice</td><td>Activate Justice as a Reaction, which you take when a creature within 30ft of you, that you can see, rolls with either advantage or disadvantage. You negate the second roll.</td></tr>
+				<tr><td>9</td><td>The Hermit</td><td>Activate The Hermit as a Bonus Aciton. You have advantage on all Wisdom ability checks and saving throws for the next hour.</td></tr>
+				<tr><td>10</td><td>Wheel of Fortune</td><td>Activate Wheel of Fortune as a Action. For the next hour, anytime you would roll an Attack Roll, a Skill Check, or a Saving Throw with disadvantage, you ignore disadvantage.</td></tr>
+				<tr><td>11</td><td>Strength</td><td>Activate Strength as a Bonus Aciton. You have advantage on all Strength ability checks and saving throws for the next hour.</td></tr>
+				<tr><td>12</td><td>The Hanged Man</td><td>Activate The Hanged Man as an Action. You remove all curses, diseases, poisons, and status conditions affecting a creature that you touch.</td></tr>
+				<tr><td>13</td><td>Death</td><td>Activate Death as an Action. You cast the spell Dispel Magic without expending a spell slot. Casting Dispel Magic in this way only works when targeting a spell equal to or lower than your proficiency bonus.</td></tr>
+				<tr><td>14</td><td>Temperance</td><td>Activate Temperance as a Bonus Aciton. You have advantage on all Charisma ability checks and saving throws for the next hour.</td></tr>
+				<tr><td>15</td><td>The Devil</td><td>Activate The Devil as an Action. You cast the spell Suggestion without expending a spell slot. Your Tarot Cards hold the concentration for you.</td></tr>
+				<tr><td>16</td><td>The Tower</td><td>Activate The Tower as a Reaction, which you take when you see a creature within 60 feet of you casting a spell. The creature must roll on the Wild Magic Table.</td></tr>
+				<tr><td>17</td><td>The Star</td><td>Activate The Star as an Action. If you or any friendly creatures within 60 feet of you regain hit points at the end of a short rest by spending one or more Hit Dice, each of those creatures regains an extra 1d6 hit points.</td></tr>
+				<tr><td>18</td><td>The Moon</td><td>Activate The Moon as an Action. You cast the spell Disguise Self without expending a spell slot.</td></tr>
+				<tr><td>19</td><td>The Sun</td><td>Activate The Sun as an Action. You cast the spell Zone of Truth without expending a spell slot.</td></tr>
+				<tr><td>20</td><td>Judgement</td><td>Activate Judgement as an Action. Touch a creature, for the next hour, whenever they make an attack roll, an ability check, or a saving throw, they can roll an additional d20. They choose which of the d20s is used for the attack roll, ability check, or saving throw. They can decide to do this after they roll the first d20, but before they know the outcome of the roll. Once they use this ability, they cannot use it again unless Judgement is used on them again.</td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>Your forged connection to the Taror empowers your future.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_FOOL" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CARTOMANCY" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SHADOW_WORK" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_INTUITIVE_READING" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_WORLD" level="14" />
+		</rules>
+	</element>
+	<element name="The Fool" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_FOOL">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_FOOL</requirements>
+		<supports>Cartomancer</supports>
+		<description>
+			<p>Your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person. Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</description>
+		</sheet>
+	</element>
+	<element name="Cartomancy" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_CARTOMANCY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CARTOMANCY</requirements>
+		<supports>Cartomancer</supports>
+		<description>
+			<p>Your deck gives you insight into the world and the future. Once per day, you can cast any known Divination Spell, without consuming a spell slot, even if the spell is not prepared.</p>
+		</description>
+		<sheet usage="1/Long Rest">
+			<description>Once per day, you can cast any known Divination Spell, without consuming a spell slot, even if the spell is not prepared.</description>
+		</sheet>
+	</element>
+	<element name="Shadow Work" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SHADOW_WORK">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SHADOW_WORK</requirements>
+		<supports>Cartomancer</supports>
+		<description>
+			<p>During your travels, you began recording your more interesting reads. Instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1)</p>
+		</description>
+		<sheet>
+			<description>Instead of activating a tarot ability, you can spend a minute to enscribe the ability into your spellbook. You cannot enscribe the same ability more than once. While the spellbook is on your person, you can activate the enscribed ability. The ability remains enscribed in your spellbook until it is activated or you spend another minute erasing it. You can enscribe a number of Tarot Abilites equal to your Intelligence Modifier (minimum 1)</description>
+		</sheet>
+	</element>
+	<element name="Intuitive Reading" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_INTUITIVE_READING">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_INTUITIVE_READING</requirements>
+		<supports>Cartomancer</supports>
+		<description>
+			<p>As your experiences grow, your trust in your deck grows with it. When you are targeted by a spell or attack, you can use your reaction to draw a random Tarot Ability from your deck. The Tarot Ability is activated as part of your reaction. You can use this feature once per long rest.</p>
+		</description>
+		<sheet>
+			<description action="Reaction">When you are targeted by a spell or attack, you can use your reaction to draw a random Tarot Ability from your deck. The Tarot Ability is activated as part of your reaction. You can use this feature once per long rest.</description>
+		</sheet>
+	</element>
+	<element name="The World" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_WORLD">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_WORLD</requirements>
+		<supports>Cartomancer</supports>
+		<description>
+			<p>Your Tarot Cards, and the meanings they represent, have brought you closer to the world. Whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</p>
+		</description>
+		<sheet>
+			<description action="Reaction" usage="1/Short or Long Rest">Whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</description>
+		</sheet>
+	</element>
+	
+	<!--Feature Replacement Grants-->
+	<element name="The Fool Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_FOOL" />
+	<element name="Cartomancy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CARTOMANCY" />
+	<element name="Shadow Work Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SHADOW_WORK" />
+	<element name="Intuitive Reading Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_INTUITIVE_READING" />
+	<element name="The World Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_WORLD" />
+</elements>
