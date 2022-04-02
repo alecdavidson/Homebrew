@@ -42,9 +42,13 @@
 		<supports>Scholar</supports>
 		<description>
 			<p>Starting at 2nd level, you have learned how to mimic other Mage's casting styles. When you see someone within 60 feet of you cast a Wizard Spell, you can use your reaction to try and memorize the casting. Make an Intelligence Check against a DC equal to 10 + the Spells Level. If the Spell Level is higher than what you could cast, the Mimicry automatically fails. On a success, the spell is now considered Prepared by you and you can cast it as normal.</p>
+            <p class="indent">You are also able to copy the spell into your spell book with Quick Learner. You can only have a single spell prepared with this ability at a time and after a long rest the spell is no longer considered prepared by you.</p>
 		</description>
 		<sheet action="Reaction">
-			<description>When you see someone within 60 feet of you cast a Wizard Spell, you can use your reaction to try and memorize the casting. Make an Intelligence Check against a DC equal to 10 + the Spells Level. If the Spell Level is higher than what you could cast, the Mimicry automatically fails. On a success, the spell is now considered Prepared by you and you can cast it as normal.</description>
+			<description>
+                <p>When you see someone within 60 feet of you cast a Wizard Spell, you can use your reaction to try and memorize the casting. Make an Intelligence Check against a DC equal to 10 + the Spells Level. If the Spell Level is higher than what you could cast, the Mimicry automatically fails. On a success, the spell is now considered Prepared by you and you can cast it as normal.</p>
+                <p class="indent">You are also able to copy the spell into your spell book with Quick Learner. You can only have a single spell prepared with this ability at a time and after a long rest the spell is no longer considered prepared by you.</p>
+        </description>
 		</sheet>
 	</element>
 	<element name="Focused Attunement" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_FOCUSED_ATTUNEMENT">
