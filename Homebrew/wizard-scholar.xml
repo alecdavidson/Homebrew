@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.0.1">
+			<file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
+		</update>
+	</info>
+
+	<element name="Scholar" type="Archetype" source="Homebrew" id="ID_HB_ARCHETYPE_WIZARD_SCHOLAR">
+		<supports>Arcane Tradition</supports>
+		<description>
+			<p>Wizards are already known to be studious individuals, but there are some that stand in a league of their own. Known to craft their own spells with ease, Scholars are exceptionally good at studying Expert Spellcraft around them.</p>
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_QUICK_LEARNER" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SPELL_MIMICRY" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_FOCUSED_ATTUNEMENT" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_STUDY_NOTES" />
+			<div element="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EXPERT_SPELLCRAFT" />
+		</description>
+		<sheet display="false">
+			<description>Your studious nature is unmatched by most.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_QUICK_LEARNER" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SPELL_MIMICRY" level="2" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_FOCUSED_ATTUNEMENT" level="6" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_STUDY_NOTES" level="10" />
+			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EXPERT_SPELLCRAFT" level="14" />
+		</rules>
+	</element>
+	<element name="Quick Learner" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_QUICK_LEARNER">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_QUICK_LEARNER</requirements>
+		<supports>Scholar</supports>
+		<description>
+			<p>When you take this Arcane Tradition at 2nd level, you hone your ability to study spells. The time and cost to copy spells into your spell book takes 1 hour and 25 gp for each level of the spell.</p>
+		</description>
+		<sheet>
+			<description>The time and cost to copy spells into your spell book takes 1 hour and 25 gp for each level of the spell.</description>
+		</sheet>
+	</element>
+	<element name="Spell Mimicry" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_SPELL_MIMICRY">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELL_MIMICRY</requirements>
+		<supports>Scholar</supports>
+		<description>
+			<p>Starting at 2nd level, you have learned how to mimic other Mage's casting styles. When you see someone within 60 feet of you cast a Wizard Spell, you can use your reaction to try and memorize the casting. Make an Intelligence Check against a DC equal to 10 + the Spells Level. If the Spell Level is higher than what you could cast, the Mimicry automatically fails. On a success, the spell is now considered Prepared by you and you can cast it as normal.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When you see someone within 60 feet of you cast a Wizard Spell, you can use your reaction to try and memorize the casting. Make an Intelligence Check against a DC equal to 10 + the Spells Level. If the Spell Level is higher than what you could cast, the Mimicry automatically fails. On a success, the spell is now considered Prepared by you and you can cast it as normal.</description>
+		</sheet>
+	</element>
+	<element name="Focused Attunement" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_FOCUSED_ATTUNEMENT">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_FOCUSED_ATTUNEMENT</requirements>
+		<supports>Scholar</supports>
+		<description>
+			<p>At 6th level, you learn how to imbue your knowledge into mundane objects. During a Short Rest, you can enchant a non-magical weapon, armor, or tool allowing you to attune to it. While attuned, you are proficient with the item and it is considered magical. Any attacks made with a weapon, attuned in this way deal magical damage, in addition to its normal damage. You can attune to a number of items in this way equal to half your Intelligence modifier rounded down.</p>
+		</description>
+		<sheet usage="1/Short Rest">
+			<description>During a Short Rest, you can enchant a non-magical weapon, armor, or tool allowing you to attune to it. While attuned, you are proficient with the item and it is considered magical. Any attacks made with a weapon, attuned in this way deal magical damage, in addition to its normal damage. You can attune to a number of items in this way equal to half your Intelligence modifier rounded down.</description>
+		</sheet>
+	</element>
+	<element name="Study Notes" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_STUDY_NOTES">
+		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_STUDY_NOTES</requirements>
+		<supports>Scholar</supports>
+		<description>
+			<p>Starting at 10th level, you learn how to study your Spell Book more efficiently. When you use the arcane recovery feature, you can replace a prepared spell for a different one you know OR replace a cantrip you know with a different one from the wizard spell list.</p>
+		</description>
+		<sheet>
+			<description usage="1/Short Rest">When you use the arcane recovery feature, you can replace a prepared spell for a different one you know OR replace a cantrip you know with a different one from the wizard spell list.</description>
+		</sheet>
+	</element>
+	<element name="Expert Spellcraft" type="Archetype Feature" source="Homebrew" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_EXPERT_SPELLCRAFT">
+		<requirements>!Expert SpellcraftID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EXPERT_SPELLCRAFT</requirements>
+		<supports>Scholar</supports>
+		<description>
+			<p>At 14th level, your ability to mimic the magic of others extends beyond that of Wizards. You can now use the Spell Mimicry Ability spells not on the Wizard Spell List and some Creature Attacks. You can transcribe a number of these spells into your Spell Book equal to your Intelligence modifier, minimum 1. Erasing one of these spells from your Spell Book requires a 1 minute ritual in which you dispel the knowledge from your book.</p>
+			<p class="indent">When attempting to mimic a Creature Attack, the level of the Crafted Spell is equal to target creatures Proficiency Bonus. Additionally, you cannot mimic any melee creature attacks, Legendary Actions, or any abilities that have a recharge.</p>
+		</description>
+		<sheet>
+			<description action="Reaction"><p>You can now use the Spell Mimicry Ability spells not on the Wizard Spell List and some Creature Attacks. You can transcribe a number of these spells into your Spell Book equal to your Intelligence modifier (minimum 1). Erasing one of these spells from your Spell Book requires a 1 minute ritual in which you dispel the knowledge from your book.</p>
+			<p class="indent">When attempting to mimic a Creature Attack, the level of the Crafted Spell is equal to target creatures Proficiency Bonus. Additionally, you cannot mimic any melee creature attacks, Legendary Actions, or any abilities that have a recharge.</p>
+        </description>
+		</sheet>
+	</element>
+
+	<!--Feature Replacement Grants-->
+	<element name="Quick Learner Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_QUICK_LEARNER" />
+	<element name="Spell Mimicry Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_SPELL_MIMICRY" />
+	<element name="Focused Attunement Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_FOCUSED_ATTUNEMENT" />
+	<element name="Study Notes Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_STUDY_NOTES" />
+	<element name="Expert Spellcraft Feature Replacement" type="Grants" source="Internal" id="Expert SpellcraftID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_EXPERT_SPELLCRAFT" />
+</elements>

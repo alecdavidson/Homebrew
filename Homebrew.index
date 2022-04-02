@@ -4,7 +4,7 @@
 		<name>Homebrew</name>
 		<description>It's my Homebrew stuff.</description>
 		<author>Alec Davidson and Thatcher Caldwell</author>
-		<update version="0.0.8">
+		<update version="0.0.9">
 			<file name="Homebrew.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew.index" />
 		</update>
 	</info>
@@ -13,5 +13,6 @@
 		<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 		<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
+        <file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
 	</files>
 </index>

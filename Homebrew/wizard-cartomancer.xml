@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
 		</update>
 	</info>
@@ -48,7 +48,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>Your forged connection to the Taror empowers your future.</description>
+			<description>Your forged connection to the Tarot empowers your future.</description>
 		</sheet>
 		<rules>
 			<grant type="Archetype Feature" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WIZARD_THE_FOOL" level="2" />
@@ -113,7 +113,7 @@
 			<description action="Reaction" usage="1/Short or Long Rest">Whenever you roll a 1 on an Ability Check or Saving Throw, you can use your reaction to instead succeed with the minimum DC. You can use this feature once per short or long rest.</description>
 		</sheet>
 	</element>
-	
+
 	<!--Feature Replacement Grants-->
 	<element name="The Fool Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_FOOL" />
 	<element name="Cartomancy Feature Replacement" type="Grants" source="Internal" id="ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_CARTOMANCY" />
