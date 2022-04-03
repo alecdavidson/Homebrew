@@ -62,7 +62,7 @@
 		<requirements>!ID_INTERNAL_FEATURE_REPLACEMENT_WIZARD_THE_FOOL</requirements>
 		<supports>Cartomancer</supports>
 		<description>
-			<p>Starting at 2nd level, your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person.</p>
+			<p>Starting at 2nd level, your studies of the arcane have led you to create a deck of Tarot Cards, unique to your person, which also counts as an Arcane Focus.</p>
 			<p class="Indent">Once per day, you can draw a number of cards from your deck (or roll a number of d20's, rerolling duplicates) equal to your proficiency bonus. You may then select one of the cards drawn and gain the associated ability (See Tarot Ability Table). Until the end of your next long rest, you can activate this ability. Once the ability has been activated, you cannot use it again until you draw it again. If you lose your deck, or any of its cards, you can spend 8 hours to magically manifest a new deck. The previous deck and all of its cards dispell into the weave.</p>
 		</description>
 		<sheet usage="1/Long Rest">
