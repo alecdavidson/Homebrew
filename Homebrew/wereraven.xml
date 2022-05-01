@@ -3,7 +3,7 @@
     <info>
         <name>Wereraven Lycanthropy</name>
         <description>Wereraven Lycanthropy</description>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="wereraven.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wereraven.xml" />
 		</update>
     </info>
@@ -52,7 +52,7 @@
 		</rules>
 	</element>
 
-	<element name="Expert Forgery" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_HB_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
+	<element name="Expert Forgery" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_KENKU_EXPERT_FORGERY">
 		<description>
 			<p>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</p>
 		</description>
@@ -60,8 +60,8 @@
 			<description>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</description>
 		</sheet>
 	</element>
-	
-	<element name="Mimicry" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_HB_RACIAL_TRAIT_KENKU_MIMICRY">
+
+	<element name="Mimicry" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_KENKU_MIMICRY">
 		<description>
 			<p>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p>
 		</description>
@@ -92,11 +92,11 @@
 
 	<element name="Raven's Talons" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_WERERAVEN_TALONS">
 		<description>
-			<p>Your hands turn into talons and you may make an unarmed strike using 2d4 + Strength Slashing Damage</p>
+			<p>Your hands turn into talons and you may make an unarmed strike using 1d6 + 1 Slashing Damage</p>
 		</description>
 		<sheet usage="Raven or Hybrid Form">
 			<description>
-			<p>Talon: Unarmed Strike Attack, 2d4 + {{wereraven weapon:modifier}} slashing damage.</p>
+			<p>Talon: Unarmed Strike Attack, 1d6 + 1 slashing damage.</p>
 			</description>
 		</sheet>
 		<rules>
@@ -123,4 +123,4 @@
 			</description>
 		</sheet>
 	</element>
-</elements>	
+</elements>

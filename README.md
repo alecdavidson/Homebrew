@@ -9,3 +9,4 @@ Change Log
 0.0.7 - Fixed Typos
 0.0.8 - Improved Formatting
 0.0.9 - Added Scholar Subclass and PDFs
+0.0.10 - Tweaked Wereraven Talon attack, added Conjure Ammunition spell, and added Corbin LeRoy Racial Trait

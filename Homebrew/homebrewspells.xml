@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Homebrew Spells</name>
-		<update version="0.0.3">
+		<update version="0.0.4">
 			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		</update>
 	</info>
@@ -31,7 +31,7 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
-	
+
 	<element name="Wristpocket" type="Spell" source="Homebrew/Critical Role" id="ID_HB_SPELL_WRISTPOCKET">
 		<supports>Wizard</supports>
 		<description>
@@ -52,4 +52,27 @@
 			<set name="isRitual">false</set>
 		</setters>
 	</element>
+
+    <element name="Conjure Ammunition" type="Spell" source="dandwiki.com" id="ID_HB_SPELL_CONJURE AMMUNITION">
+        <supports>Wizard</supports>
+        <description>
+            <p>In your hand or in an open container on your person, you create up to 5 pieces of ammunition or up to 5 darts. The created items are magical for the purpose of overcoming damage resistance or immunity, but have no other special properties. Possibilities for ammunition include arrows, bolts, bullets, and needles.</p>
+            <p>As part of the bonus action used to cast this spell, you can use as a material component an amount of gems, gold, or silver equal in value to the ammunition you created. If you do so, the material component is consumed by the spell, and the ammunition becomes nonmagical at the end of the duration. If you do not, the ammunition vanishes at the end of the duration.</p>
+            <p class="indent">At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you create an additional 5 darts or pieces of ammunition for each spell slot level above 1st.</p>
+        </description>
+        <setters>
+            <set name="keywords">homebrew</set>
+            <set name="level">1</set>
+            <set name="school">Conjuration</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">1 minute</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">false</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"/>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
 </elements>
