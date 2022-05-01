@@ -4,7 +4,7 @@
         <name>Corbin LeRoy</name>
         <description>Abilities learned by Corbin LeRoy</description>
 		<update version="0.0.2">
-			<file name="corbin_leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin_leroy.xml" />
+			<file name="corbin_leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 		</update>
     </info>
 
