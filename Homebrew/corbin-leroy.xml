@@ -3,8 +3,8 @@
     <info>
         <name>Corbin LeRoy</name>
         <description>Abilities learned by Corbin LeRoy</description>
-		<update version="0.0.2">
-			<file name="corbin_leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
+		<update version="0.0.4">
+			<file name="corbin-leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 		</update>
     </info>
 
@@ -18,31 +18,20 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<select type="Racial Trait" name="Corbin LeRoy" supports="Corbin-LeRoy" optional="true" />
+			<select type="Feat" name="Corbin LeRoy" supports="Corbin-LeRoy" optional="true" />
 		</rules>
 	</element>
 
-	<element name="Corbin" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_CORBIN">
+	<element name="Corbin LeRoy" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_CORBIN">
 		<supports>Corbin-LeRoy</supports>
 		<description>
-			<p>Corbin LeRoy</p>
-			<div element="ID_HB_RACIAL_TRAIT_CORBIN_LEROY_CONJURE_AMMUNITION" />
 			<p>You know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
 		</description>
-		<sheet display ="false">
-			<description />
-		</sheet>
-		<rules>
-			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_CORBIN_LEROY_CONJURE" />
-		</rules>
-	</element>
-
-	<element name="Conjure Ammunition" type="Racial Trait" source="Homebrew" id="ID_HB_RACIAL_TRAIT_CORBIN_LEROY_CONJURE_AMMUNITION">
-		<description>
-			<p>You know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
-		</description>
-		<sheet action="Bonus Action">
+		<sheet>
 			<description>You know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
 		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_HB_SPELL_CONJURE_AMMUNITION" />
+		</rules>
 	</element>
 </elements>

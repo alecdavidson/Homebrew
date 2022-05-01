@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.13 - Fixed corbin-leroy.xml in Homebrew.index and actually added the spell it's supposed to give you.
+
 0.0.12 - Updated README to make more sense :upside_down:
 
 0.0.11 - Fixed formatting with Corbin LeRoy Racial Trait Filename

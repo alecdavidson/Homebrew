@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Homebrew Spells</name>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		</update>
 	</info>
@@ -53,7 +53,7 @@
 		</setters>
 	</element>
 
-    <element name="Conjure Ammunition" type="Spell" source="dandwiki.com" id="ID_HB_SPELL_CONJURE AMMUNITION">
+    <element name="Conjure Ammunition" type="Spell" source="dandwiki.com" id="ID_HB_SPELL_CONJURE_AMMUNITION">
         <supports>Wizard</supports>
         <description>
             <p>In your hand or in an open container on your person, you create up to 5 pieces of ammunition or up to 5 darts. The created items are magical for the purpose of overcoming damage resistance or immunity, but have no other special properties. Possibilities for ammunition include arrows, bolts, bullets, and needles.</p>
