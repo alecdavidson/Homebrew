@@ -21,3 +21,5 @@
 0.0.9 - Added Scholar Subclass and PDFs
 
 0.0.10 - Tweaked Wereraven Talon attack, added Conjure Ammunition spell, and added Corbin LeRoy Racial Trait
+
+0.0.11 - Fixed formatting with Corbin LeRoy Racial Trait Filename
