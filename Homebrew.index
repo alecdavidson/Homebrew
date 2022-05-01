@@ -14,6 +14,6 @@
 		<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 		<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
         <file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
-        <file name="corbin_leroy.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin_leroy.xml" />
+        <file name="corbin_leroy.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 	</files>
 </index>
