@@ -10,7 +10,7 @@
 
 	<element name="Corbin LeRoy" type="Item" source="Homebrew" id="ID_HB_CORBIN_LEROY">
 		<description>
-            <h4>Abilities learned by Corbin LeRoy</h4>
+			<h4>Abilities learned by Corbin LeRoy</h4>
 			<p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
             <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
 		</description>
@@ -20,24 +20,30 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<select type="Feat" name="Corbin LeRoy" supports="Corbin-LeRoy" optional="true" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
+			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_QUEENS_GIFT" />
+			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_SYLAS_GIFT" />
 		</rules>
 	</element>
 
-	<element name="Corbin LeRoy" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_CORBIN">
+	<element name="Queens Gift" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_QUEENS_GIFT">
 		<supports>Corbin-LeRoy</supports>
-		<description>
-			<p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
-            <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
-		</description>
+		<description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
 		<sheet>
-			<description>
-                <p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
-                <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
-            </description>
+			<description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_HB_SPELL_CONJURE_AMMUNITION" />
+		</rules>
+	</element>
+
+	<element name="Sylas's Gift" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_SYLAS_GIFT">
+		<supports>Corbin-LeRoy</supports>
+		<description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
+		<sheet>
+			<description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
+		</sheet>
+		<rules>
             <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
 	</element>
