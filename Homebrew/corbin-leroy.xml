@@ -20,7 +20,6 @@
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
 			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_QUEENS_GIFT" />
 			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_SYLAS_GIFT" />
 		</rules>
