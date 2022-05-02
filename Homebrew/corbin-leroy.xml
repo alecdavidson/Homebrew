@@ -3,7 +3,7 @@
     <info>
         <name>Corbin LeRoy</name>
         <description>Abilities learned by Corbin LeRoy</description>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="corbin-leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 		</update>
     </info>
@@ -25,13 +25,18 @@
 	<element name="Corbin LeRoy" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_CORBIN">
 		<supports>Corbin-LeRoy</supports>
 		<description>
-			<p>You know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
+			<p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
+            <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
 		</description>
 		<sheet>
-			<description>You know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
+			<description>
+                <p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
+                <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
+            </description>
 		</sheet>
 		<rules>
 			<grant type="Spell" id="ID_HB_SPELL_CONJURE_AMMUNITION" />
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD" />
 		</rules>
 	</element>
 </elements>
