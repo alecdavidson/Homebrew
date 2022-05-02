@@ -10,7 +10,9 @@
 
 	<element name="Corbin LeRoy" type="Item" source="Homebrew" id="ID_HB_CORBIN_LEROY">
 		<description>
-			<p>Abilities learned by Corbin LeRoy</p>
+            <h4>Abilities learned by Corbin LeRoy</h4>
+			<p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
+            <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
 		</description>
 		<setters>
 			<set name="category">Additional Feature</set>
