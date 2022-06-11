@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.15 - Added background-custom-true and homebrew-items-instrument
+
 0.0.14 - Added Cold Resistance to ID_HB_RACIAL_TRAIT_CORBIN
 
 0.0.13 - Fixed corbin-leroy.xml in Homebrew.index and actually added the spell it's supposed to give you.

@@ -4,7 +4,7 @@
 		<name>Homebrew</name>
 		<description>It's my Homebrew stuff.</description>
 		<author>Alec Davidson and Thatcher Caldwell</author>
-		<update version="0.0.14">
+		<update version="0.0.15">
 			<file name="Homebrew.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew.index" />
 		</update>
 	</info>
@@ -13,7 +13,9 @@
 		<file name="homebrewspells.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrewspells.xml" />
 		<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 		<file name="wizard-cartomancer.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-cartomancer.xml" />
-        <file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
-        <file name="corbin-leroy.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
+		<file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
+		<file name="corbin-leroy.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
+		<file name="background-custom-true.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/background-custom-true.xml" />
+		<file name="homebrew-items-instrument.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items-instrument.xml" />
 	</files>
 </index>

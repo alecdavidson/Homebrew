@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew Instruments</name>
+		<description></description>
+		<author>Wirstead</author>
+		<update version="0.0.1">
+			<file name="homebrew-items-instrument.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items-instrument.xml" />
+		</update>
+	</info>
+	
+    <element name="Harmonica" type="Item" source="Homebrew" id="ID_HB_INSTRUMENT_HARMONICA">
+    <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+    <description>
+      <p>If you have proficiency with the harmonica, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+    </description>
+    <setters>
+      <set name="category">Musical Instruments</set>
+      <set name="cost" currency="gp">12</set>
+      <set name="weight" lb="2">2 lbs.</set>
+      <set name="slot">onehand</set>
+      <set name="type">Tool</set>
+      <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HARMONICA</set>
+    </setters>
+  </element>
+  <element name="Tool Proficiency (Harmonica)" type="Proficiency" source="Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HARMONICA">
+    <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+    <description>
+    </description>
+  </element>
+</elements>
