@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.16 - Added Homebrew Items
+
 0.0.15 - Added background-custom-true and homebrew-items-instrument
 
 0.0.14 - Added Cold Resistance to ID_HB_RACIAL_TRAIT_CORBIN

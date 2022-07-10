@@ -16,6 +16,6 @@
 		<file name="wizard-scholar.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/wizard-scholar.xml" />
 		<file name="corbin-leroy.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 		<file name="background-custom-true.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/background-custom-true.xml" />
-		<file name="homebrew-items-instrument.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items-instrument.xml" />
+		<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items.xml" />
 	</files>
 </index>

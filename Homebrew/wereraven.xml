@@ -13,7 +13,7 @@
 			<p>Wereraven Lycanthropy</p>
 		</description>
 		<setters>
-			<set name="category">Additional Feature</set>
+			<set name="category">Homebrew</set>
 			<set name="slot">misc</set>
 			<set name="inventory-hidden">true</set>
 		</setters>

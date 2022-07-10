@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Homebrew Items</name>
+		<description></description>
+		<author>Wirstead</author>
+		<update version="0.0.1">
+			<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items.xml" />
+		</update>
+	</info>
+
+    <!--Harmonica-->
+    <element name="Harmonica" type="Item" source="Homebrew" id="ID_HB_INSTRUMENT_HARMONICA">
+        <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
+        <description>
+            <p>If you have proficiency with the harmonica, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus.</p>
+        </description>
+        <setters>
+            <set name="category">Homebrew</set>
+            <set name="slot">onehand</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_PROFICIENCY_TOOL_PROFICIENCY_HARMONICA</set>
+        </setters>
+    </element>
+    <element name="Tool Proficiency (Harmonica)" type="Proficiency" source="Homebrew" id="ID_PROFICIENCY_TOOL_PROFICIENCY_HARMONICA">
+        <supports>Tool, Musical Instrument, ID_PROFICIENCY_MUSICAL_INSTRUMENT</supports>
+        <description/>
+    </element>
+
+    <!--Topaz Annihilator-->
+    <element name="Topaz Annihilator" type="Magic Item" source="Homebrew" id="ID_HB_TOPAZ_ANNIHILATOR">
+    	<description>
+    		<p>This magic ranged weapon resembles a musket, but in lieu of any ammunition, it holds a glowing yellow scale from a topaz dragon in its heart. Use you Intelligence Modifier when rolling to hit.</p>
+    		<p class="indent">The weapon has a normal range of 100 feet and a long range of 300 feet, and it has the two-handed property. It deals 2d6 necrotic damage on a hit. If this damage reduces a creature or object to 0 hit points, the target is reduced to dust. A creature reduced to dust can be restored to life only by a true resurrection or wish spell.</p>
+    		<p class="indent">While the weapon is on your person, you can use an action to cast the <i>disintegrate</i> spell (save DC 18). Once this property is used, it can’t be used again until the next dawn.</p>
+    		<div class="reference">
+    			<div element="ID_PHB_SPELL_DISINTEGRATE" />
+    		</div>
+    	</description>
+    	<setters>
+    		<set name="keywords">musket, necrotic, disintegrate</set>
+    		<set name="category">Homebrew</set>
+    		<set name="type" addition="Firearm">Weapon</set>
+            <set name="attunement">true</set>
+    		<set name="rarity">Legendary</set>
+            <set name="range">100/300</set>
+            <set name="damage" type="necrotic">2d6</set>
+    		<set name="weapon">Musket</set>
+    	</setters>
+    </element>
+
+    <!--Circlet of Mental Ward-->
+    <element name="Circlet of Mental Ward" type="Magic Item" source="Homebrew" id="ID_HB_CIRCLET_OF_MENTAL_WARD">
+        <description>
+            <p>The Circlet of Mental Ward will give the attuned wearer +2 to their Intelligence Score shield wearer’s mind from Mind Reading.</p>
+        </description>
+        <setters>
+            <set name="category">Homebrew</set>
+            <set name="type">Wondrous Item</set>
+            <set name="slot">head</set>
+            <set name="attunement">true</set>
+        </setters>
+        <rules>
+            <stat name="intelligence" value="2" alt="Ability Score Increase" />
+        </rules>
+    </element>
+
+    <!--Ring of Memory stealing-->
+    <element name="Ring of Memory stealing" type="Item" source="Homebrew" id="ID_HB_RING_OF_MEMORY_STEALING">
+    	<description>
+    		<p>A gold wire with a tiny bead of oricalcum in the center. Wires are wrapped so that they look like they should hold another gem (long and narrow, not present).</p>
+    		<p>Requires the use of another spell to be used, but will create a crystal of the memory.</p>
+    	</description>
+    	<setters>
+    		<set name="category">Homebrew</set>
+    		<set name="stackable">true</set>
+    	</setters>
+    </element>
+
+    <!--Potion of Dethentim-->
+    <element name="Potion of Dethentim" type="Item" source="Homebrew" id="ID_HB_POTION_OF_DETHENTIM">
+    	<description>
+    		<p>A Blue Potion from Inara, drink and re-roll any check or save.</p>
+    		<p>There is an unknown side-effect.</p>
+    	</description>
+    	<setters>
+    		<set name="category">Homebrew</set>
+    		<set name="stackable">true</set>
+    	</setters>
+    </element>
+
+    <!--Blink Potion-->
+    <element name="Blink Potion" type="Item" source="Homebrew" id="ID_HB_BLINK_POTION">
+    	<description>
+    		<p>A Purple Potion from Inara.</p>
+    		<p>Drink as a Bonus Action and immediately cast the spell Blink.</p>
+    	</description>
+    	<setters>
+    		<set name="category">Homebrew</set>
+    		<set name="stackable">true</set>
+    	</setters>
+    </element>
+
+    <!--Find Familiar Components-->
+    <element name="Find Familiar Components" type="Item" source="Homebrew" id="ID_HB_FIND_FAMILIAR_COMPONENTS">
+    	<description>
+    		<p>Components used to cast the spell Find Familiar.</p>
+    	</description>
+    	<setters>
+            <set name="keywords">Components</set>
+    		<set name="category">Homebrew</set>
+    		<set name="cost" currency="gp">10</set>
+    		<set name="stackable">true</set>
+    	</setters>
+    </element>
+
+    <!--Secret Chest-->
+    <element name="Secret Chest" type="Item" source="Homebrew" id="ID_HB_SECRET_CHEST">
+    	<description>
+    		<p>Components used to summon a Secret Chest.</p>
+    	</description>
+    	<setters>
+            <set name="keywords">Components</set>
+    		<set name="category">Homebrew</set>
+    		<set name="cost" currency="gp">50</set>
+    		<set name="stackable">false</set>
+    	</setters>
+    </element>
+
+    <!--LeRoy Book-->
+    <element name="LeRoy Book" type="Item" source="Homebrew" id="ID_HB_LEROY_BOOK">
+        <description>
+            <p>The LeRoy Family Book. One of Nine powerful tomes.</p>
+        </description>
+        <setters>
+            <set name="category">Homebrew</set>
+            <set name="weight" lb="3">3 lb.</set>
+        </setters>
+    </element>
+</elements>

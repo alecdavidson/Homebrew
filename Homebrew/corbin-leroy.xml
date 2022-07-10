@@ -15,7 +15,7 @@
             <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
 		</description>
 		<setters>
-			<set name="category">Additional Feature</set>
+			<set name="category">Homebrew</set>
 			<set name="slot">misc</set>
 			<set name="inventory-hidden">true</set>
 		</setters>
