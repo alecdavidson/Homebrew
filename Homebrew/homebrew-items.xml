@@ -4,7 +4,7 @@
 		<name>Homebrew Items</name>
 		<description></description>
 		<author>Wirstead</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items.xml" />
 		</update>
 	</info>
@@ -111,6 +111,30 @@
     		<set name="category">Homebrew</set>
     		<set name="cost" currency="gp">10</set>
     		<set name="stackable">true</set>
+    	</setters>
+    </element>
+
+    <!--Legend Lore Components-->
+    <element name="Legend Lore Components (Incense)" type="Item" source="Homebrew" id="ID_HB_LEGEND_LORE_COMPONENTS">
+    	<description>
+    		<p>Incense used as a Component to cast the spell Legend Lore.</p>
+    	</description>
+    	<setters>
+            <set name="keywords">Components</set>
+    		<set name="category">Homebrew</set>
+    		<set name="cost" currency="gp">250</set>
+    		<set name="stackable">true</set>
+    	</setters>
+    </element>
+    <element name="Legend Lore Components (Ivory Strips)" type="Item" source="Homebrew" id="ID_HB_LEGEND_LORE_COMPONENTS_2">
+    	<description>
+    		<p>4 Ivory Strips used as a Component to cast the spell Legend Lore.</p>
+    	</description>
+    	<setters>
+            <set name="keywords">Components</set>
+    		<set name="category">Homebrew</set>
+    		<set name="cost" currency="gp">200</set>
+    		<set name="stackable">false</set>
     	</setters>
     </element>
 
