@@ -4,7 +4,7 @@
 		<name>Homebrew Items</name>
 		<description></description>
 		<author>Wirstead</author>
-		<update version="0.0.1">
+		<update version="0.0.2">
 			<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items.xml" />
 		</update>
 	</info>
@@ -52,7 +52,7 @@
     <!--Circlet of Mental Ward-->
     <element name="Circlet of Mental Ward" type="Magic Item" source="Homebrew" id="ID_HB_CIRCLET_OF_MENTAL_WARD">
         <description>
-            <p>The Circlet of Mental Ward will give the attuned wearer +2 to their Intelligence Score shield wearer’s mind from Mind Reading.</p>
+            <p>The Circlet of Mental Ward will give the attuned wearer +2 to their Intelligence Score and shield wearer’s mind from Mind Reading.</p>
         </description>
         <setters>
             <set name="category">Homebrew</set>
@@ -135,6 +135,17 @@
         <setters>
             <set name="category">Homebrew</set>
             <set name="weight" lb="3">3 lb.</set>
+        </setters>
+    </element>
+
+    <!--Dream Disk-->
+    <element name="Dream Disk" type="Item" source="Homebrew" id="ID_HB_DREAM_DISK">
+        <description>
+            <p>A ruby Dream Disk used by Vaxatuza to interact with the Dream World.</p>
+        </description>
+        <setters>
+            <set name="category">Homebrew</set>
+            <set name="stackable">true</set>
         </setters>
     </element>
 </elements>
