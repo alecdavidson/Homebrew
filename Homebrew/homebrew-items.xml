@@ -9,6 +9,17 @@
 		</update>
 	</info>
 
+    <!--Misc Items-->
+    <element name="Misc Items" type="Item" source="Homebrew" id="ID_HB_MISC_ITEMS">
+    	<description>
+    		<p>Miscellaneous Items can be added as a custom note to show on Character Sheet</p>
+    	</description>
+    	<setters>
+    		<set name="category">Homebrew</set>
+    		<set name="stackable">false</set>
+    	</setters>
+    </element>
+
     <!--Harmonica-->
     <element name="Harmonica" type="Item" source="Homebrew" id="ID_HB_INSTRUMENT_HARMONICA">
         <supports>ID_INTERNAL_TOOL_MUSICAL_INSTRUMENT</supports>
