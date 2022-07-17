@@ -3,30 +3,27 @@
     <info>
         <name>Corbin LeRoy</name>
         <description>Abilities learned by Corbin LeRoy</description>
-		<update version="0.0.5">
+		<update version="0.0.6">
 			<file name="corbin-leroy.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/corbin-leroy.xml" />
 		</update>
     </info>
 
-	<element name="Corbin LeRoy" type="Item" source="Homebrew" id="ID_HB_CORBIN_LEROY">
-		<description>
-			<h4>Abilities learned by Corbin LeRoy</h4>
-			<p>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</p>
-            <p>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</p>
-		</description>
+	<element name="Her Majesty's Boon" type="Item" source="Homebrew" id="ID_HB_HER_MAJESTYS_BOON">
+        <description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
+		<sheet>
+			<description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
+		</sheet>
 		<setters>
 			<set name="category">Homebrew</set>
 			<set name="slot">misc</set>
 			<set name="inventory-hidden">true</set>
 		</setters>
 		<rules>
-			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_QUEENS_GIFT" />
-			<grant type="Feat" id="ID_HB_RACIAL_TRAIT_SYLAS_GIFT" />
+			<grant type="Feat" id="ID_HB_FEAT_HER_MAJESTYS_BOON" />
 		</rules>
 	</element>
-
-	<element name="Queens Gift" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_QUEENS_GIFT">
-		<supports>Corbin-LeRoy</supports>
+	<element name="Her Majesty's Boon" type="Feat" source="Homebrew" id="ID_HB_FEAT_HER_MAJESTYS_BOON">
+		<supports>Her Majesty's Boon</supports>
 		<description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
 		<sheet>
 			<description>A gift from the once Queen of I'Cath, you know the spell Conjure Ammunition. While you hold the dream stone, you may cast this spell a number of times equal to your proficiency modifier, even if you’re not in the dream world or in a region connected to the dream world. This spell doesn’t count against the spells you know and is always prepared.</description>
@@ -36,8 +33,22 @@
 		</rules>
 	</element>
 
-	<element name="Sylas's Gift" type="Feat" source="Homebrew" id="ID_HB_RACIAL_TRAIT_SYLAS_GIFT">
-		<supports>Corbin-LeRoy</supports>
+    <element name="Sylas's Boon" type="Item" source="Homebrew" id="ID_HB_SYLASS_BOON">
+        <description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
+		<sheet>
+			<description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
+		</sheet>
+		<setters>
+			<set name="category">Homebrew</set>
+			<set name="slot">misc</set>
+			<set name="inventory-hidden">true</set>
+		</setters>
+        <rules>
+            <grant type="Feat" id="ID_HB_FEAT_SYLASS_BOON" />
+		</rules>
+	</element>
+	<element name="Sylas's Boon" type="Feat" source="Homebrew" id="ID_HB_FEAT_SYLASS_BOON">
+		<supports>Sylas's Boon</supports>
 		<description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
 		<sheet>
 			<description>As thanks for curing Sylas, you have resistance to Cold Damage and the effects of Cold Weather.</description>
