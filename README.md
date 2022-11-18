@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.17 - Added Widogast's Transmogrification (as Transmogrification)
+
 0.0.16 - Added Homebrew Items
 
 0.0.15 - Added background-custom-true and homebrew-items-instrument
