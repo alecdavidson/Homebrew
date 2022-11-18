@@ -4,7 +4,7 @@
 		<name>Homebrew</name>
 		<description>It's my Homebrew stuff.</description>
 		<author>Alec Davidson and Thatcher Caldwell</author>
-		<update version="0.0.17">
+		<update version="0.0.18">
 			<file name="Homebrew.index" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew.index" />
 		</update>
 	</info>

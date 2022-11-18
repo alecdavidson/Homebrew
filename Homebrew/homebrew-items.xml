@@ -4,7 +4,7 @@
 		<name>Homebrew Items</name>
 		<description></description>
 		<author>Wirstead</author>
-		<update version="0.0.4">
+		<update version="0.0.5">
 			<file name="homebrew-items.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/homebrew-items.xml" />
 		</update>
 	</info>
@@ -181,6 +181,26 @@
         <setters>
             <set name="category">Homebrew</set>
             <set name="stackable">true</set>
+        </setters>
+    </element>
+
+    <!--The Black Book of Cognitus-->
+    <element name="The Black Book of Cognitus" type="Magic Item" source="Homebrew" id="ID_HB_THE_BLACK_BOOK_OF_COGNITUS">
+        <description>
+            <p>The Black Book of Cognitus</p>
+            <p><i>”I have waited for a worthy reader, Corbin LeRoy. My name is Cognitus, and I have such sights to show you.”</i></p>
+            <p>While attuned to this book:</p>
+            <ul><li>You have advantage on Wisdom Saving Throws from magical effects.</li>
+            <li>On your turn, you can shift back and forth between any of your wereraven forms as free actions.</li>
+            <li>Any enchantment spell you know can be cast at Bonus Action speed.</li>
+            <li>Casting spells from the book takes an action, even if the spell would specify longer casting time, and does not require a spell slot. However, doing so may have unforeseen consequences.</li>
+            <li>You can transplant any spell from the Black Book of Cognitus into your own spellbook(s) for half price, regardless of the school, provided you have a spell slot to cast the spell.</li></ul>
+        </description>
+        <setters>
+            <set name="category">Homebrew</set>
+            <set name="type">Wondrous Item</set>
+            <set name="slot">misc</set>
+            <set name="attunement">true</set>
         </setters>
     </element>
 </elements>
