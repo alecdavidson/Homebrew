@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcane Desperado</name>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 		</update>
 	</info>
@@ -49,20 +49,11 @@
                 </ul>
             </description>
             <sheet usage="9/Long Rest">
-                <description>1/turn use one of you Arcane Arm options
-                    <ul>
-                        <li>On a Ranged Spell Attack, spend 1 charge to swap one of the below damage types to another:</li>
-                        <ul>
-                            <li>acid</li>
-                            <li>cold</li>
-                            <li>fire</li>
-                            <li>lightning</li>
-                            <li>poison</li>
-                            <li>thunder</li>
-                        </ul>
-                        <li>On a Ranged Weapon Attack with your Arcane Arm, spend 1 charge, deal an additional 1d10 Force damage.</li>
-                        <li>On a Ranged Weapon Attack with your Arcane Arm, spend 1 charge, make an Bonus Action Ranged Weapon Attack, ignoring the Reload property.</li>
-                    </ul>
+                <description>
+                    <p>1/turn use one of you Arcane Arm options</p>
+                    <p class="indent">When you make a Ranged Spell Attack that deals a type of damage from the following list, you can spend 1 charge to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder</p>
+                    <p class="indent">When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to deal an additional 1d10 Force damage.</p>
+                    <p class="indent">When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to make an additional Ranged Weapon Attack as a Bonus Action, ignoring the Reload property.</p>
                 </description>
             </sheet>
 	</element>
