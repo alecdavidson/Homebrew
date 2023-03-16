@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.20 - Added Details Arcane Arm to Character Sheet
+
 0.0.19 - Updated 3rd level ability for Arcane Desperado
 
 0.0.18 - Added Cognitus, the Raven Grimoire to homebrew-items.xml
