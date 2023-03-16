@@ -1,5 +1,7 @@
 # Change Log
 
+0.0.19 - Updated 3rd level ability for Arcane Desperado
+
 0.0.18 - Added Cognitus, the Raven Grimoire to homebrew-items.xml
 
 0.0.17 - Added Widogast's Transmogrification (as Transmogrification)

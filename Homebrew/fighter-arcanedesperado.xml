@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Arcane Desperado</name>
-		<update version="0.0.0">
+		<update version="0.0.1">
 			<file name="fighter-arcanedesperado.xml" url="https://raw.githubusercontent.com/alecdavidson/Homebrew/main/Homebrew/fighter-arcanedesperado.xml" />
 		</update>
 	</info>
@@ -10,7 +10,7 @@
 		<supports>Martial Archetype</supports>
 		<description>
 			<p>The Arcane Desperado has rediscovered the technique of gunslinging and learned to weave magic into attacks to produce supernatural effects. Arcane Desperado watches over and protects the innocent. Built from the Arcane Archer and Gunslinger Subclasses</p>
-			<div element="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_THE_DESPERADO"/>
+			<div element="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_ARM"/>
 			<div element="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_SHOT"/>
 			<div element="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_MAGIC_SHOT"/>
 			<div element="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_CURVING_SHOT"/>
@@ -23,37 +23,34 @@
 			<description>The Arcane Desperado studies a unique method weaving magic into attacks to produce supernatural effects.</description>
 		</sheet>
 		<rules>
-			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_THE_DESPERADO" level="3"/>
+			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_ARM" level="3"/>
 			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_SHOT" level="3"/>
 			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_MAGIC_SHOT" level="7"/>
 			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_CURVING_SHOT" level="7"/>
 			<grant type="Archetype Feature" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_EVER_READY_SHOT" level="15"/>
 		</rules>
 	</element>
-	<element name="The Desperado" type="Archetype Feature" source="Homebrew" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_THE_DESPERADO">
-		<description>
-			<p>Starting when you choose this archetype at 3rd level, you gain proficiency with firearms, allowing you to add your proficiency bonus to attacks made with firearms.</p>
-			<p>You also gain proficiency with Tinker’s Tools. You may use them to craft ammunition, repair damaged firearms, or even draft and create new ones (DM’s discretion).</p>
-		</description>
-		<sheet display="false">
-			<description>You rediscover the secrets of gunslinging, once lost with the Westerlands.</description>
-		</sheet>
-		<rules>
-			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS" />
-			
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
-
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_PISTOL_AUTOMATIC" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_REVOLVER" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_HUNTING" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_RIFLE_AUTOMATIC" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_MODERN_FIREARMS_SHOTGUN" />
-
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASTER_PISTOL" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_ANTIMATTER_RIFLE" />
-			<grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FUTURISTIC_FIREARMS_LASER_RIFLE" />
-		</rules>
+	<element name="Arcane Arm" type="Archetype Feature" source="Homebrew" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_ARM">
+        <description>
+            <p>Starting at 3rd level, you learn how to carve Alchemical Sigils into a firearm, imbuing it with Transmutative properties. You can spend 1 hour augmenting a firearm to create an Arcane Arm. The Arcane Arm has 9 charges and can be used as an Arcane Focus when making Ranged Spell Attacks.</p>
+            <p class="indent">Anytime you use the Arcane Arm to make an attack, you can spend charges to do one of the following. You can only spend one charge per turn and you regain 1d6 expended charges every dawn.</p>
+                <ul>
+                    <li>When you make a Ranged Spell Attack that deals a type of damage from the following list, you can spend 1 charge to change that damage type to one of the other listed types:</li>
+                    <ul>
+                        <li>acid</li>
+                        <li>cold</li>
+                        <li>fire</li>
+                        <li>lightning</li>
+                        <li>poison</li>
+                        <li>thunder</li>
+                    </ul>
+                    <li>When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to deal an additional 1d10 Force damage.</li>
+                    <li>When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to make an additional Ranged Weapon Attack as a Bonus Action, ignoring the Reload property.</li>
+                </ul>
+            </description>
+            <sheet display="false">
+                <description>You rediscover the secrets of gunslinging, once lost with the Westerlands.</description>
+            </sheet>
 	</element>
 	<element name="Arcane Shot" type="Archetype Feature" source="Homebrew" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_SHOT">
 		<description>
