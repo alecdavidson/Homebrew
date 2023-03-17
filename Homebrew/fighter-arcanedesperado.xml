@@ -49,12 +49,7 @@
                 </ul>
             </description>
             <sheet usage="9/Long Rest">
-                <description>
-                    <p>1/turn use one of you Arcane Arm options</p>
-                    <p class="indent">When you make a Ranged Spell Attack that deals a type of damage from the following list, you can spend 1 charge to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder</p>
-                    <p class="indent">When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to deal an additional 1d10 Force damage.</p>
-                    <p class="indent">When you make a Ranged Weapon Attack with your Arcane Arm, you can spend 1 charge to make an additional Ranged Weapon Attack as a Bonus Action, ignoring the Reload property.</p>
-                </description>
+                <description>1/turn, you can use one of you Arcane Arm abilities when making a Ranged Melee or Spell Attack with your Arcane Arm.</description>
             </sheet>
 	</element>
 	<element name="Arcane Shot" type="Archetype Feature" source="Homebrew" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_SHOT">
