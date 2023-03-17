@@ -49,7 +49,7 @@
                 </ul>
             </description>
             <sheet usage="9/Long Rest">
-                <description>1/turn, you can use one of you Arcane Arm abilities when making a Ranged Melee or Spell Attack with your Arcane Arm.</description>
+                <description>1/turn, you can use one of you Arcane Arm abilities when making a Ranged Weapon or Spell Attack with your Arcane Arm.</description>
             </sheet>
 	</element>
 	<element name="Arcane Shot" type="Archetype Feature" source="Homebrew" id="ID_HB_ARCHETYPE_FEATURE_ARCANE_DESPERADO_ARCANE_SHOT">
